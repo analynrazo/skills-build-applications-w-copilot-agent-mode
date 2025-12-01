@@ -1,0 +1,180 @@
+
+body {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+  color: #2d3142;
+}
+
+
+.octofit-logo {
+  height: 48px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #232526 0%, #414345 100%);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  color: #ffb400 !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.navbar-brand:hover, .navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
+  color: #ff6f61 !important;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+}
+
+.App-link {
+  color: #61dafb;
+  text-decoration: underline;
+}
+
+.App-link:hover {
+  color: #ff6f61;
+}
+
+/* Headings */
+h1, .display-3, .display-4 {
+  color: #2d3142;
+  text-shadow: 1px 1px 0 #ffb40022;
+}
+
+/* Tables */
+.table {
+  background: #fff;
+  color: #222;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.table thead {
+  background: #ffb400;
+  color: #232526;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f9f6f2;
+}
+.table-bordered th, .table-bordered td {
+  border-color: #ffb400;
+}
+
+/* Buttons */
+.btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger {
+  border: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 6px rgba(255,180,0,0.08);
+  transition: background 0.2s, color 0.2s;
+}
+.btn-primary {
+  background: linear-gradient(90deg, #ffb400 0%, #ff6f61 100%);
+  color: #232526;
+}
+.btn-primary:hover {
+  background: #ff6f61;
+  color: #fff;
+}
+.btn-success {
+  background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%);
+  color: #232526;
+}
+.btn-info {
+  background: linear-gradient(90deg, #56ccf2 0%, #2f80ed 100%);
+  color: #fff;
+}
+.btn-warning {
+  background: linear-gradient(90deg, #f7971e 0%, #ffd200 100%);
+  color: #232526;
+}
+.btn-danger {
+  background: linear-gradient(90deg, #f857a6 0%, #ff5858 100%);
+  color: #fff;
+}
+
+/* Cards */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  border: none;
+}
+.card-body {
+  background: #f5f7fa;
+}
+
+/* Modals */
+.modal-content {
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+}
+.modal-header {
+  background: #ffb400;
+  color: #232526;
+  border-bottom: 1px solid #ffb400;
+}
+.modal-footer {
+  border-top: 1px solid #ffb400;
+}
+
+/* Forms */
+.form-control:focus {
+  border-color: #ffb400;
+  box-shadow: 0 0 0 0.2rem #ffb40033;
+}
+
+/* Custom link style */
+a {
+  color: #ff6f61;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffb400;
+  text-decoration: underline;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
